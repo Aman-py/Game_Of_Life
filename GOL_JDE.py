@@ -38,7 +38,7 @@ def main():
     N = 100
     newInterval = 50
     print('This is Conway\'s Game of LifeIt contain these patterns {} whereas Block,Behive,Loaf,Boat Are Static Patterns Blinker,Toad,Beacon Are Oscillators And Gun,Glider Are Spaceships'.format(str(list(d.keys()))))
-    print('\n\nPattern List: ',end='')
+    print('\n\nPattern List: ')
     print(list(d.keys()))
     print('\n\nTo Run A Pattern Type Pattern Name From The List For Random Pattern Type Random')  
     k = input('\n\nType Your Pattern Name: ')
